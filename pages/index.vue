@@ -15,72 +15,72 @@
       <div>
         <div class="skill-item">
           <img
-            src="@/assets/images/skill.png"
+            src="@/assets/icons/vue.svg"
             class="skill-item-image"
-            alt=""
+            alt="Vue.js"
             srcset=""
           >
           <p>Vue.js</p>
         </div>
         <div class="skill-item">
           <img
-            src="@/assets/images/skill.png"
+            src="@/assets/icons/scss.png"
             class="skill-item-image"
-            alt=""
+            alt="SCSS"
             srcset=""
           >
           <p>SCSS</p>
         </div>
         <div class="skill-item">
           <img
-            src="@/assets/images/skill.png"
+            src="@/assets/icons/nodejs.svg"
             class="skill-item-image"
-            alt=""
+            alt="Node.js"
             srcset=""
           >
           <p>Node.js</p>
         </div>
         <div class="skill-item">
           <img
-            src="@/assets/images/skill.png"
+            src="@/assets/icons/mongodb.png"
             class="skill-item-image"
-            alt=""
+            alt="MongoDB"
             srcset=""
           >
           <p>MongoDB</p>
         </div>
         <div class="skill-item">
           <img
-            src="@/assets/images/skill.png"
+            src="@/assets/icons/javascript.svg"
             class="skill-item-image"
-            alt=""
+            alt="JavaScript"
             srcset=""
           >
-          <p>Javascript</p>
+          <p>JavaScript</p>
         </div>
         <div class="skill-item">
           <img
-            src="@/assets/images/skill.png"
+            src="@/assets/icons/nuxt.svg"
             class="skill-item-image"
-            alt=""
+            alt="Nuxt.js"
             srcset=""
           >
           <p>Nuxt.js</p>
         </div>
         <div class="skill-item">
           <img
-            src="@/assets/images/skill.png"
+            src="@/assets/icons/pwa.png"
             class="skill-item-image"
-            alt=""
+            alt="pwa"
             srcset=""
           >
           <p>PWA</p>
         </div>
         <div class="skill-item">
           <img
-            src="@/assets/images/skill.png"
+            src="@/assets/icons/graphql.svg"
             class="skill-item-image"
-            alt=""
+            alt="graphql"
             srcset=""
           >
           <p>GraphQL</p>
@@ -91,49 +91,54 @@
       <div class="subsection-header">
         <h4>Projects</h4>
       </div>
-      <div class="project-item">
-        <div class="project-slide">
+      <div class="project-items">
+        <div class="project-item">
+          <div class="project-slide">
 
+          </div>
+          <div class="project-description">
+            <h5>CrystalSleek</h5>
+            <p>This is an e-commerce start-up in Nigeria, the customer site is available at www.crystalsleek.com and the admin site at admin.crystalsleek.com. These were my roles:</p>
+            <ul>
+              <li>Built the websites from scratch using Vuejs, Nodejs, Express and MongoDB</li>
+              <li>Designed the websites using Figma and Adobe Illustrator</li>
+              <li>Admin can manage products, customers and orders from the admin website</li>
+              <li>Integrated the websites with Flutterwave (a local payment gateway in Africa) API, Twilio SMS API, SendGrid Email API and Cloudinary API</li>
+              <li>Customers can order, track order and mail admin from the site</li>
+            </ul>
+          </div>
         </div>
-        <div class="project-description">
-          <h5>CrystalSleek</h5>
-          <ul>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, incidunt.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, incidunt.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, incidunt.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, incidunt.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, incidunt.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="project-item">
-        <div class="project-slide">
+        <div class="project-item">
+          <div class="project-slide">
 
+          </div>
+          <div class="project-description">
+            <h5>Freshr</h5>
+            <p>Freshr is an Health and Lifestyle Blog Magazine. These were my roles in building their website:</p>
+            <ul>
+              <li>Built the site using Nuxtjs(Server Side Rendering)</li>
+              <li>Designed the site using Figma and Adobe Illustrator</li>
+              <li>Integrated Contentful API so the admin can update contents through Contentful CMS</li>
+              <li> Integrated MailChimp API so visitors can subscribe to newsletter updates from the site</li>
+              <li>This site is a Progressive Web App that averaged 90.8% when evaluated with Google Lighthouse</li>
+              <li>The site is available at www.freshrblog.herokuapp.com</li>
+            </ul>
+          </div>
         </div>
-        <div class="project-description">
-          <h5>Freshr</h5>
-          <ul>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, incidunt.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, incidunt.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, incidunt.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, incidunt.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, incidunt.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="project-item">
-        <div class="project-slide">
+        <div class="project-item">
+          <div class="project-slide">
 
-        </div>
-        <div class="project-description">
-          <h5>Texas Cuisine</h5>
-          <ul>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, incidunt.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, incidunt.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, incidunt.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, incidunt.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, incidunt.</li>
-          </ul>
+          </div>
+          <div class="project-description">
+            <h5>Texas Cuisine</h5>
+            <p>Texas Cuisine is a restaurant. I was given the task of building their Admin site where they can manage orders and products. These were my roles:</p>
+            <ul>
+              <li>Built the site with Vuejs and Nodejs backend using Sequelize with PostgreSQL database</li>
+              <li>The client can upload menus, update delivery status, add other admins and also manage customers’ information</li>
+              <li>This site is a Progressive Web App and has a score of 100% in both Progressive Web App and Performance metrics when evaluated with Google Lighthouse</li>
+              <li>Designed the site using Figma and Adobe Illustrator</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -141,21 +146,25 @@
       <div class="subsection-header">
         <h4>Certifications</h4>
       </div>
-      <div class="certification-item">
-        <h5>PluralSight Javascript Expert</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto debitis impedit corporis molestias similique minima doloribus deleniti distinctio soluta.</p>
-      </div>
-      <div class="certification-item">
-        <h5>Mobile Web Specialist</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto debitis impedit corporis molestias similique minima doloribus deleniti distinctio soluta.</p>
-      </div>
-      <div class="certification-item">
-        <h5>MongoDB Certificates</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto debitis impedit corporis molestias similique minima doloribus deleniti distinctio soluta.</p>
-      </div>
-      <div class="certification-item">
-        <h5>Free Code Camp Javascript Expert Certificate</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto debitis impedit corporis molestias similique minima doloribus deleniti distinctio soluta.</p>
+      <div class="certification-items">
+        <div class="certification-item">
+          <h5>PluralSight Javascript Expert</h5>
+          <p>PluralSight is one of the leading online software training platform in America. This certificate was earned upon successful completion of their Javascript Skill IQ test.</p>
+        </div>
+        <div class="certification-item">
+          <h5>Mobile Web Specialist</h5>
+          <p>Progressive Web Applications (PWA) are the new generation of web apps that are fast, reliable and engaging. I earned this certificate after successfully completing the Mobile Web Specialist course where I was taught how to build PWA. The course was offered by Google and Andela</p>
+        </div>
+        <div class="certification-item">
+          <h5>MongoDB Certificates</h5>
+          <p>
+            MongoDB Aggregation Framework and MongoDB for Javascript Developer Certificates earned from MongoDB Inc. after scoring 100% in the first and 93% in the second course respectively
+          </p>
+        </div>
+        <div class="certification-item">
+          <h5>Free Code Camp Javascript Expert Certificate</h5>
+          <p>I earned this certificate after successfully completing the Javascript projects on Free Code Camp</p>
+        </div>
       </div>
     </div>
     <div class="subsection hobbies">
@@ -170,23 +179,23 @@
     </div>
     <div class="footer">
       <div>
-        <h3>Get in touch</h3>
+        <h4>Get in touch</h4>
       </div>
       <div>
         <div class="contact-item">
-            <img
-              src="@/assets/icons/gmail.png"
-              alt=""
-              srcset=""
-            >
+          <img
+            src="@/assets/icons/gmail.png"
+            alt=""
+            srcset=""
+          >
           <p>toshoajibade@gmail.com</p>
         </div>
         <div class="contact-item">
-            <img
-              src="@/assets/icons/github.png"
-              alt=""
-              srcset=""
-            >
+          <img
+            src="@/assets/icons/github.png"
+            alt=""
+            srcset=""
+          >
           <p>www.github.com/toshoajibade</p>
         </div>
         <div class="contact-item">
@@ -226,13 +235,17 @@ $primary-blue: #4f81ff;
   height: 500px;
   padding: 4rem;
   width: 100%;
-  background-image: linear-gradient(
-      rgba(79, 129, 255, 0.9),
-      rgba(79, 129, 255, 0.9)
-    ),
-    url('../assets/images/computer.jpg');
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover;
+  h3,
+  p {
+    color: $primary-blue;
+  }
+  // background-image: linear-gradient(
+  //     rgba(79, 129, 255, 0.9),
+  //     rgba(79, 129, 255, 0.9)
+  //   ),
+  //   url('../assets/images/computer.jpg');
+  // background-repeat: no-repeat, no-repeat;
+  // background-size: cover;
 }
 .intro-wrapper {
   width: 60%;
@@ -266,31 +279,32 @@ h5 {
 }
 .subsection {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: flex-start;
   p {
     color: #464646;
   }
+  li {
+    color: #464646;
+  }
   .subsection-header {
+    padding: 2rem;
     display: flex;
     justify-content: center;
     position: sticky;
     top: 0rem;
     width: 100%;
     align-items: center;
-    padding: 2rem;
-    margin-bottom: 4rem;
+    h4 {
+      color: white;
+    }
   }
 }
 .skills {
-  padding-bottom: 2rem;
-  h4 {
-    color: $secondary-blue;
+  .subsection-header {
+    background-color: $primary-blue;
   }
   > div {
-    padding: 0rem 4rem;
-    margin-bottom: 2rem;
+    padding: 4rem 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 3rem;
@@ -301,41 +315,49 @@ h5 {
   flex-direction: column;
   align-items: center;
   img {
-    border-radius: 40px;
     width: 110px;
     height: 80px;
-    object-fit: cover;
+    object-fit: contain;
     margin-bottom: 1rem;
   }
 }
 .projects {
-  padding-bottom: 1rem;
   .subsection-header {
     background-color: $primary-purple;
-    h4 {
-      color: white;
-    }
   }
-  > div {
-    padding: 0rem 10rem;
-    h5 {
-      color: $primary-purple;
-    }
+  .project-items {
+    padding: 4rem 8rem;
+  }
+  h5 {
+    color: $primary-purple;
   }
 }
 .project-item {
   margin-bottom: 4rem;
   display: flex;
-  &:nth-child(3) {
+  &:nth-child(2) {
     flex-direction: row-reverse;
+    .project-slide {
+      margin-right: 0rem;
+      margin-left: 2rem;
+    }
+  }
+  &:last-child {
+    margin-bottom: 0rem;
   }
   .project-slide {
-    height: 350px;
+    height: 400px;
     margin-top: 0.25rem;
     border-radius: 5px;
     width: 500px;
     background-color: grey;
     margin-right: 2rem;
+  }
+  .project-description {
+    flex: 1;
+  }
+  p {
+    margin-bottom: 0.5rem;
   }
   ul {
     padding: 0px;
@@ -347,40 +369,36 @@ h5 {
   }
 }
 .certifications {
-  padding-bottom: 4rem;
   .subsection-header {
     background-color: $secondary-blue;
-    h4 {
-      color: white;
-    }
   }
-  > div {
-    padding: 0rem 10rem;
-    h5 {
-      color: $secondary-blue;
-    }
+  .certification-items {
+    padding: 4rem 10rem;
   }
 }
 .certification-item {
   margin-bottom: 1rem;
+  h5 {
+    color: $secondary-blue;
+  }
 }
 .hobbies {
-  padding-bottom: 4rem;
+  min-height: calc(100vh - 200px);
   .subsection-header {
     background-color: $primary-purple;
-    h4 {
-      color: white;
-    }
   }
   > div {
-    padding: 0rem 10rem;
+    padding: 4rem 10rem;
   }
 }
 .footer {
   display: flex;
-  height: 400px;
+  height: 200px;
   background-color: $primary-blue;
   padding: 0rem 10rem;
+  h4 {
+    color: white;
+  }
   > div {
     display: flex;
     height: 100%;
@@ -393,13 +411,11 @@ h5 {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
-
   img {
     margin-right: 1rem;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    
+    height: 30px;
+    width: 30px;
     object-fit: cover;
   }
 }
