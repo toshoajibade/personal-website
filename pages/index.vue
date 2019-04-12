@@ -6,11 +6,19 @@
         <p class="intro">My name is Tosho Ajibade, I am a software developer based in Lagos, Nigeria.</p>
       </div>
       <div class="avatar">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
       </div>
     </div>
     <div class="skills subsection">
       <div class="subsection-header">
         <h4>Things I know</h4>
+        <div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
       <div>
         <div class="skill-item">
@@ -90,11 +98,24 @@
     <div class="subsection projects">
       <div class="subsection-header">
         <h4>Projects</h4>
+        <div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
       <div class="project-items">
         <div class="project-item">
           <div class="project-slide">
-
+            <video
+              autoplay
+              loop
+            >
+              <source
+                src="https://res.cloudinary.com/toshoajibade/video/upload/v1555076673/personal-website/crystalsleek.mp4"
+                type="video/mp4"
+              >
+            </video>
           </div>
           <div class="project-description">
             <h5>CrystalSleek</h5>
@@ -110,7 +131,15 @@
         </div>
         <div class="project-item">
           <div class="project-slide">
-
+            <video
+              autoplay
+              loop
+            >
+              <source
+                src="https://res.cloudinary.com/toshoajibade/video/upload/v1555076611/personal-website/freshr.mp4"
+                type="video/mp4"
+              >
+            </video>
           </div>
           <div class="project-description">
             <h5>Freshr</h5>
@@ -127,7 +156,15 @@
         </div>
         <div class="project-item">
           <div class="project-slide">
-
+            <video
+              autoplay
+              loop
+            >
+              <source
+                src="https://res.cloudinary.com/toshoajibade/video/upload/v1555076700/personal-website/texascuisine.mp4"
+                type="video/mp4"
+              >
+            </video>
           </div>
           <div class="project-description">
             <h5>Texas Cuisine</h5>
@@ -145,6 +182,16 @@
     <div class="subsection certifications">
       <div class="subsection-header">
         <h4>Certifications</h4>
+        <div>
+          <div>
+            <div>
+              <div></div>
+            </div>
+          </div>
+          <div>
+            <div></div>
+          </div>
+        </div>
       </div>
       <div class="certification-items">
         <div class="certification-item">
@@ -170,10 +217,14 @@
     <div class="subsection hobbies">
       <div class="subsection-header">
         <h4>Hobbies</h4>
+        <div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
       <div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perspiciatis ipsum dolorem? Esse modi tempora odit architecto labore unde explicabo minus consequuntur vel quos? Vero architecto nostrum veritatis voluptates vel obcaecati minima accusamus. Ratione placeat illum, dicta consequuntur rem dolorem.
+          Travelling is something I have always loved, discovering new places, meeting new people and just exploring the world. I also read, I have read fictions from authors like Sidney Sheldon (<i>The Other Side of Me</i> where he wrote about his journey to becoming a world class author is a real inspiration to me), Jeffery Archer and Mario Puzo; I have also read business books like The Lean Start Up, The Innovators Dilemma and The Wealth of Nations (I consider this the best business book I have ever read)
         </p>
       </div>
     </div>
@@ -211,16 +262,6 @@
   </section>
 </template>
 
-<script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
-</script>
-
 <style scoped lang="scss">
 $secondary-blue: #16a8fb;
 $primary-purple: #8e68ff;
@@ -232,20 +273,13 @@ $primary-blue: #4f81ff;
   flex-direction: column;
 }
 .hero {
-  height: 500px;
-  padding: 4rem;
+  min-height: 500px;
   width: 100%;
+  display: flex;
   h3,
   p {
     color: $primary-blue;
   }
-  // background-image: linear-gradient(
-  //     rgba(79, 129, 255, 0.9),
-  //     rgba(79, 129, 255, 0.9)
-  //   ),
-  //   url('../assets/images/computer.jpg');
-  // background-repeat: no-repeat, no-repeat;
-  // background-size: cover;
 }
 .intro-wrapper {
   width: 60%;
@@ -254,7 +288,7 @@ $primary-blue: #4f81ff;
   align-items: center;
   flex-direction: column;
   height: 100%;
-  padding: 3rem;
+  padding: 10%;
 }
 .intro {
   color: white;
@@ -266,9 +300,7 @@ h3 {
   font-family: Playball;
   color: white;
 }
-.hello {
-  margin-bottom: 2rem;
-}
+
 h4 {
   font-weight: normal;
   font-size: 2rem;
@@ -293,8 +325,10 @@ h5 {
     position: sticky;
     top: 0rem;
     width: 100%;
+    height: 120px;
     align-items: center;
     h4 {
+      z-index: 100;
       color: white;
     }
   }
@@ -302,6 +336,36 @@ h5 {
 .skills {
   .subsection-header {
     background-color: $primary-blue;
+    > div {
+      div {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 0px;
+        left: 10%;
+        animation: skill1 10s ease-in-out infinite alternate;
+        &:first-child {
+          background-color: #2965fb;
+        }
+        &:nth-child(2) {
+          background-color: $secondary-blue;
+          animation-delay: 1s;
+        }
+        &:nth-child(3) {
+          background-color: $primary-purple;
+          animation-delay: 2s;
+        }
+      }
+      @keyframes skill1 {
+        50% {
+          transform: translateY(-90px);
+        }
+        100% {
+          left: calc(90% - 30px);
+        }
+      }
+    }
   }
   > div {
     padding: 4rem 4rem;
@@ -324,9 +388,50 @@ h5 {
 .projects {
   .subsection-header {
     background-color: $primary-purple;
+    > div {
+      div {
+        width: 70px;
+        height: 10px;
+        background-color: #7d51ff;
+        position: absolute;
+        &:first-child {
+          left: 10%;
+          top: 20px;
+          animation: project1 5s ease-in infinite alternate;
+        }
+        &:nth-child(2) {
+          left: 50%;
+          top: 55px;
+          animation: project2 10s ease-in infinite alternate;
+        }
+        &:nth-child(3) {
+          left: calc(90% - 70px);
+          top: 90px;
+          animation: project3 5s ease-in infinite alternate;
+        }
+        @keyframes project1 {
+          100% {
+            left: calc(90% - 70px);
+          }
+        }
+        @keyframes project2 {
+          50% {
+            left: 10%;
+          }
+          100% {
+            left: calc(90% - 70px);
+          }
+        }
+        @keyframes project3 {
+          100% {
+            left: 10%;
+          }
+        }
+      }
+    }
   }
   .project-items {
-    padding: 4rem 8rem;
+    padding: 4rem 10%;
   }
   h5 {
     color: $primary-purple;
@@ -350,8 +455,14 @@ h5 {
     margin-top: 0.25rem;
     border-radius: 5px;
     width: 500px;
-    background-color: grey;
     margin-right: 2rem;
+    video {
+      height: 400px;
+      object-fit: contain;
+      width: 500px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 20px #bdbdbd;
+    }
   }
   .project-description {
     flex: 1;
@@ -371,10 +482,52 @@ h5 {
 .certifications {
   .subsection-header {
     background-color: $secondary-blue;
+    > div {
+      > div {
+        position: absolute;
+        background-color: #0089d5;
+        border-radius: 3px;
+        > div {
+          width: 10px;
+          height: 10px;
+          position: absolute;
+          top: 8px;
+          right: 5px;
+          border-radius: 50%;
+          background-color: #fff;
+          opacity: 0.5;
+        }
+      }
+      > div:first-child {
+        bottom: 20px;
+        left: 0%;
+        width: 20px;
+        height: 30px;
+        animation: collect 5s linear infinite forwards;
+      }
+      > div:nth-child(2) {
+        width: 40px;
+        height: 50px;
+        top: 30px;
+        left: calc(90% - 20px);
+      }
+      @keyframes collect {
+        50% {
+          transform: translate(30px, -50px) skewX(30deg);
+          left: 40%;
+        }
+        100% {
+          transform: translate(0px, -20px) skewX(0deg);
+          left: calc(90% - 20px);
+          width: 40px;
+          height: 50px;
+        }
+      }
+    }
   }
-  .certification-items {
-    padding: 4rem 10rem;
-  }
+}
+.certification-items {
+  padding: 4rem 10%;
 }
 .certification-item {
   margin-bottom: 1rem;
@@ -386,16 +539,50 @@ h5 {
   min-height: calc(100vh - 200px);
   .subsection-header {
     background-color: $primary-purple;
+    > div {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      > div {
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        background-color: #7d51ff;
+        position: absolute;
+        &:first-child {
+          animation: play 10s linear infinite alternate;
+          bottom: 0px;
+          left: 0px;
+        }
+        &:nth-child(2) {
+          animation: play 20s linear infinite alternate;
+          bottom: 0px;
+          left: 100px;
+        }
+      }
+      @keyframes play {
+        50% {
+          bottom: 0px;
+          left: 50%;
+          transform: translateY(-90px);
+        }
+
+        100% {
+          left: calc(100% - 30px);
+          transform: translateY(0px);
+        }
+      }
+    }
   }
   > div {
-    padding: 4rem 10rem;
+    padding: 4rem 10%;
   }
 }
 .footer {
   display: flex;
-  height: 200px;
+  min-height: 200px;
   background-color: $primary-blue;
-  padding: 0rem 10rem;
+  padding: 0rem 10%;
   h4 {
     color: white;
   }
@@ -417,6 +604,125 @@ h5 {
     height: 30px;
     width: 30px;
     object-fit: cover;
+  }
+}
+.avatar {
+  position: relative;
+  width: 40%;
+  overflow: hidden;
+}
+.circle-1 {
+  background-color: $primary-purple;
+  position: absolute;
+  right: -50px;
+  top: -50px;
+  opacity: 0.8;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+.circle-2 {
+  background-color: $primary-blue;
+  position: absolute;
+  right: -20px;
+  top: 100px;
+  opacity: 0.8;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+.circle-3 {
+  background-color: $secondary-blue;
+  position: absolute;
+  right: 180px;
+  top: 150px;
+  opacity: 0.8;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+@media (max-width: 1200px) {
+  .project-item,
+  .project-item:nth-child(2) {
+    flex-direction: column-reverse;
+    margin-bottom: 2rem;
+    .project-slide {
+      width: 100%;
+      max-width: 500px;
+      margin-right: 0rem;
+      margin-left: 0rem;
+    }
+    .project-description {
+      margin-bottom: 1rem;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .circle-3 {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .circle-3 {
+    display: block;
+    top: -50px;
+    right: 100px;
+  }
+  .circle-2 {
+    top: -100px;
+    right: 200px;
+  }
+  .intro-wrapper {
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  .avatar {
+    width: 100%;
+    height: 250px;
+  }
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .projects {
+    .project-items {
+      padding: 2rem 5%;
+    }
+  }
+  .certification-items {
+    padding: 2rem 5%;
+  }
+  .skills {
+    > div {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  .hobbies > div {
+    padding: 2rem 5%;
+  }
+  .footer {
+    flex-direction: column;
+    padding: 2rem 5%;
+    > div {
+      width: 100%;
+    }
+    h4 {
+      margin-bottom: 1rem;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .skills {
+    > div {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .skill-item {
+      img {
+        margin-bottom: 0.5rem;
+      }
+    }
   }
 }
 </style>
