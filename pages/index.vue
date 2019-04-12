@@ -454,15 +454,15 @@ h5 {
     margin-bottom: 0rem;
   }
   .project-slide {
-    height: 400px;
+    height: auto;
     margin-top: 0.25rem;
     border-radius: 5px;
     width: 500px;
     margin-right: 2rem;
     video {
-      height: 400px;
+      height: auto;
       object-fit: contain;
-      width: 500px;
+      width: 100%;
       border-radius: 5px;
       box-shadow: 0px 0px 20px #bdbdbd;
     }
@@ -653,6 +653,7 @@ h5 {
     margin-bottom: 2rem;
     .project-slide {
       width: 100%;
+      object-fit: contain;
       max-width: 500px;
       margin-right: 0rem;
       margin-left: 0rem;
