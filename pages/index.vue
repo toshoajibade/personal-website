@@ -583,6 +583,8 @@ h5 {
   min-height: 200px;
   background-color: $primary-blue;
   padding: 0rem 10%;
+  align-items: center;
+
   h4 {
     color: white;
   }
