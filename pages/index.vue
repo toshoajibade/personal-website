@@ -110,6 +110,7 @@
             <video
               autoplay
               loop
+              muted
             >
               <source
                 src="https://res.cloudinary.com/toshoajibade/video/upload/v1555076673/personal-website/crystalsleek.mp4"
@@ -134,6 +135,7 @@
             <video
               autoplay
               loop
+              muted
             >
               <source
                 src="https://res.cloudinary.com/toshoajibade/video/upload/v1555076611/personal-website/freshr.mp4"
@@ -159,6 +161,7 @@
             <video
               autoplay
               loop
+              muted
             >
               <source
                 src="https://res.cloudinary.com/toshoajibade/video/upload/v1555076700/personal-website/texascuisine.mp4"
