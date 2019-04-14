@@ -111,6 +111,7 @@
               autoplay
               loop
               muted
+              poster="https://res.cloudinary.com/toshoajibade/image/upload/v1555201910/personal-website/crystalsleek-holder.png"
             >
               <source
                 src="https://res.cloudinary.com/toshoajibade/video/upload/v1555076673/personal-website/crystalsleek.mp4"
@@ -136,6 +137,7 @@
               autoplay
               loop
               muted
+              poster="https://res.cloudinary.com/toshoajibade/image/upload/v1555201907/personal-website/freshr-holder.png"
             >
               <source
                 src="https://res.cloudinary.com/toshoajibade/video/upload/v1555076611/personal-website/freshr.mp4"
@@ -159,6 +161,7 @@
         <div class="project-item">
           <div class="project-slide">
             <video
+              poster="https://res.cloudinary.com/toshoajibade/image/upload/v1555201906/personal-website/texascuisine-holder.png"
               autoplay
               loop
               muted
