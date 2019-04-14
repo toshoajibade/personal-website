@@ -29,7 +29,7 @@ export default {
     skipWaiting: true,
     runtimeCaching: [
       {
-        urlPattern: 'https://res.cloudinary.com/toshoajibade/video/.*',
+        urlPattern: /^https:\/\/res\.cloudinary\.com/,
         handler: 'cacheFirst',
         method: 'GET',
         strategyOptions: {
@@ -40,7 +40,7 @@ export default {
     ]
   },
   meta: {
-    name: 'Freshr',
+    name: 'Tosho Ajibade',
     theme_color: '#4f81ff'
   },
   manifest: {
