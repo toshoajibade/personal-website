@@ -1,6 +1,5 @@
 <template>
   <section class="container">
-    <img src="./demo.svg" alt="svg demo">
     <div class="hero">
       <div class="intro-wrapper">
         <h3 class="hello">Hello</h3>
