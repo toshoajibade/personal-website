@@ -111,6 +111,35 @@
               autoplay
               loop
               muted
+              poster="https://res.cloudinary.com/toshoajibade/image/upload/v1578399760/personal-website/tabulio-holder.png"
+            >
+              <source
+                src="https://res.cloudinary.com/toshoajibade/video/upload/v1578398656/personal-website/Tabulio.mp4"
+                type="video/mp4"
+              >
+            </video>
+          </div>
+          <div class="project-description">
+            <h5>Tabulio (www.tabulio.com)</h5>
+            <p>Tabulio is a social networking platform where creatives such as developers, designers, writers, artists and others can showcase their work and connect with one another. Users can share blogs, pictures and short videos about their work on the platform. These were my roles:</p>
+            <ul>
+              <li>Built the the frontend using Vue.js, SCSS and GraphQL</li>
+              <li>Built a rich text editor where users can write blogs, insert images within the blog and emb status/post/pen from Twitter, Facebook and Codepen respectively</li>
+              <li>Added functionality so users can upload multiple pictures and short videos about their work</li>
+              <li>Implemented a code syntax highlighter within the blog editor</li>
+              <li>Implemented a real time chatting app using GraphQL subscription so users can chat with one another within the platform</li>
+              <li>Implemented social interactions so users can like, comment and reshare one another's post</li>
+              <li>Played a very active role in the design of the website using Figma</li>
+              <li>Worked together with the backend developer to build the backend using Express.js, GraphQL and MongoDB</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-slide">
+            <video
+              autoplay
+              loop
+              muted
               poster="https://res.cloudinary.com/toshoajibade/image/upload/v1555201910/personal-website/crystalsleek-holder.png"
             >
               <source
@@ -120,8 +149,8 @@
             </video>
           </div>
           <div class="project-description">
-            <h5>CrystalSleek</h5>
-            <p>This is an e-commerce start-up in Nigeria, the customer site is available at www.crystalsleek.com and the admin site at admin.crystalsleek.com. These were my roles:</p>
+            <h5>CrystalSleek (www.crystalsleek.com)</h5>
+            <p>This is a new e-commerce start-up in Nigeria, I worked on both the customer and admin side of the site. The admin site is available at admin.crystalsleek.com. These were my roles:</p>
             <ul>
               <li>Built the websites from scratch using Vuejs, Nodejs, Express and MongoDB</li>
               <li>Designed the websites using Figma and Adobe Illustrator</li>
