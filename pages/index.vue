@@ -128,7 +128,12 @@
               <li>Implemented a code syntax highlighter within the blog editor</li>
               <li>Implemented a real time chatting app using GraphQL subscription so users can chat with one another within the platform</li>
               <li>Implemented social interactions so users can like, comment and reshare one another's post</li>
+              <li>Wrote comprehensive End to End test suites for the core functionalities of the site using Cypress</li>
               <li>Worked together with the backend developer to build the backend using Express.js, GraphQL and MongoDB</li>
+              <li>Built the Server Side Rendered version 2 of the site from scratch using Vue Server Renderer</li>
+              <li>Implemented service worker web push and notification api so users can get push notifications once they receive new messages</li>
+              <li>Also worked with other aspects of the service worker api such as IndexedDB, Post Messages and Background Sync</li>
+              <li>Built a mini component library hosted on Github package registry so common components and icons can be reusable across projects</li>
             </ul>
           </div>
         </div>
@@ -484,10 +489,13 @@ h5 {
     margin-bottom: 0rem;
   }
   .project-slide {
-    height: auto;
+    height: 400px;
+    top: 9rem;
+    position: sticky;
     margin-top: 0.25rem;
     border-radius: 5px;
     width: 500px;
+    z-index: -1;
     margin-right: 2rem;
     video {
       height: auto;
@@ -678,12 +686,15 @@ h5 {
 }
 @media (max-width: 1200px) {
   .project-item,
-  .project-item:nth-child(2) {
+  .project-item:nth-child(2), .project-item:nth-child(4) {
     flex-direction: column-reverse;
     margin-bottom: 2rem;
     .project-slide {
       width: 100%;
       object-fit: contain;
+      height: auto;
+      position: relative;
+      top: 0rem; 
       max-width: 500px;
       margin-right: 0rem;
       margin-left: 0rem;
